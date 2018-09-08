@@ -23,7 +23,8 @@ Training data의 starter kit으로 ICLR 2017의 accept & reject list를 2018과 
 
 불행히도 베이스라인 모델은 모든 논문을 reject하기로 결정했습니다. (전부 output=1) ICLR 2018 test set accuracy는 모든 논문 reject시 63.32% 입니다. (accept논문 336개, reject 논문 580개)
 
-##The task: test set의 정보를 직접 학습에 반영하는 cheating을 하지 않는 선에서 (ex: 논문 저자에 Joshua Bengio가 포함된다면 무조건 accept 등…), 수단과 방법을 가리지 않고 test set accuracy가 baseline 이상을 기록하는 모델을 설계하는 것입니다.
+## The task
+test set의 정보를 직접 학습에 반영하는 cheating을 하지 않는 선에서 (ex: 논문 저자에 Joshua Bengio가 포함된다면 무조건 accept 등…), 수단과 방법을 가리지 않고 test set accuracy가 baseline 이상을 기록하는 모델을 설계하는 것입니다.
 
 단순한 딥러닝 모델 설계만으로는 부족할 것입니다. 확률 모델링 기법, 클래식 머신러닝 기법 등 여러분이 알고 있는 모든 지식을 동원하여 이 “말도 안되는” task가 baseline을 넘어설 수 있는지 알아봅시다!
 
